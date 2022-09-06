@@ -78,11 +78,11 @@ section{
     font-size: 4rem;
     padding:1rem;
     border-bottom: .1rem solid #fff4;
-    color:#fff;
+    color:var(--yellow);
 }
 
 .heading span{
-    color:var(--yellow);
+    color:#fff;
 }
 
 header{
@@ -289,7 +289,7 @@ header .navbar ul li a:hover{
     color:rgb(255, 255, 255);
 }
 
-.educação .box-container{
+.trajetória .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -298,7 +298,7 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
 }
 
-.educação .box-container .box-1{
+.trajetória .box-container .box-1{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -306,7 +306,7 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.educação .box-container .box-1 span{
+.trajetória .box-container .box-1 span{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
@@ -314,20 +314,20 @@ header .navbar ul li a:hover{
     padding:.5rem 2.5rem;
 }
 
-.educação .box-container .box-1 h3{
+.trajetória .box-container .box-1 h3{
     font-size: 2rem;
     color: var(--yellow);
     padding-top: 1.5rem;
 }
 
-.educação .box-container .box-1 h4{
+.trajetória .box-container .box-1 h4{
     font-size: 1.5rem;
     color:#fff;
     padding-top: 0.5rem;
     
 }
 
-.educação .box-container .box-1 i{
+.trajetória .box-container .box-1 i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -340,7 +340,7 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
-.educação .box-container .box-1 p{
+.trajetória .box-container .box-1 p{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
@@ -349,7 +349,7 @@ header .navbar ul li a:hover{
 
 
 
-.educação .box-container .box{
+.trajetória .box-container .box{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -357,7 +357,7 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.educação .box-container .box span{
+.trajetória .box-container .box span{
     font-size: 1.3rem;
     background:#222;
     color: #fff;
@@ -365,26 +365,26 @@ header .navbar ul li a:hover{
     padding:.5rem 2.5rem;
 }
 
-.educação .box-container .box h3{
+.trajetória .box-container .box h3{
     font-size: 2rem;
     color: var(--yellow);
     padding-top: 1.5rem;
 }
 
-.educação .box-container .box h4{
+.trajetória .box-container .box h4{
     font-size: 1.5rem;
     color:#fff;
     padding-top: 0.5rem;
     
 }
 
-.educação .box-container .box p{
+.trajetória .box-container .box p{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
 }
 
-.educação .box-container .box i{
+.trajetória .box-container .box i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -397,7 +397,7 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
-.educação .box-container .box-2{
+.trajetória .box-container .box-2{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -405,7 +405,7 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.educação .box-container .box-2 span{
+.trajetória .box-container .box-2 span{
     font-size: 1.5rem;
     background:#222;
     color:#fff;
@@ -414,7 +414,7 @@ header .navbar ul li a:hover{
 }
 
 
-.educação .box-container .box-2 i{
+.trajetória .box-container .box-2 i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -427,7 +427,7 @@ header .navbar ul li a:hover{
     background: var(--yellow);
 }
 
-.educação .box-container .box-2 ul{
+.trajetória .box-container .box-2 ul{
     margin-top: 1rem;
     font-size: 1.7rem;
     color:#eee;
@@ -436,13 +436,13 @@ header .navbar ul li a:hover{
 }
 
 
-.educação .box-container .box-2 h3{
+.trajetória .box-container .box-2 h3{
     font-size: 2rem;
     color: var(--yellow);
     padding-top: 1.5rem;
 }
 
-.educação .box-container .box-2 h4{
+.trajetória .box-container .box-2 h4{
     font-size: 2rem;
     color:var(--yellow);
     padding-top: 0.5rem;
@@ -450,7 +450,7 @@ header .navbar ul li a:hover{
     
 }
 
-.educação .box-container .box-2 p{
+.trajetória .box-container .box-2 p{
     font-size: 2rem;
     color:var(--yellow);
     padding: 1rem 0;
@@ -458,7 +458,7 @@ header .navbar ul li a:hover{
 }
 
 
-.educação .box-container .box-6{
+.trajetória .box-container .box-6{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -466,7 +466,7 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.educação .box-container .box-6 span{
+.trajetória .box-container .box-6 span{
     font-size: 1.5rem;
     background:#222;
     color:#fff;
@@ -475,7 +475,7 @@ header .navbar ul li a:hover{
 }
 
 
-.educação .box-container .box-6 i{
+.trajetória .box-container .box-6 i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -488,7 +488,7 @@ header .navbar ul li a:hover{
     background: rgb(255, 162, 0);
 }
 
-.educação .box-container .box-6 ul{
+.trajetória .box-container .box-6 ul{
     margin-top: 1rem;
     font-size: 1.7rem;
     color:#eee;
@@ -828,7 +828,7 @@ input[type="radio"]{
         width: 100%;
     }
  
-    .educação .box-container .box{
+    .trajetória .box-container .box{
         width:100%;
     }
 
